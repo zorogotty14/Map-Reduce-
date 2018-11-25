@@ -24,7 +24,7 @@ for line in sys.stdin:
 l1=(mydict.keys())
 l2=(mydict.values())
 sorted1=sorted(zip(l1,l2),key=lambda (k,v):(v,k))
-sorted1=sorted1[::1]
+sorted1=sorted1[::-1]
 for i in sorted1:
 	print i
 
