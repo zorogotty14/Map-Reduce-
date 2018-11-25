@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# mapper function used for wickets taken
 import sys
 
 def read_input(file): # used to read input from file provided
