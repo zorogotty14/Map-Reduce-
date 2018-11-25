@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import sys
 
-def read_input(file):
+def read_input(file): # used to read input from file provided
     for line in file:
         yield line.split('\t')
 
