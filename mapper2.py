@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# mapper function for Runs scored by batsmen
 import sys
 
 def read_input(file):
